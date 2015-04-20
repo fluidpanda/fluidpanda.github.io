@@ -1,7 +1,29 @@
 ﻿body {
   background-size:100%;
   background-image:url(images/bird.gif);
+  font-size:1.2em;
+  font-style:normal;
+  font-family:sans;
+  line-height:1em;
+  margin-left:1em;
+  margin-top:1em;
 }
 p {
-color:white;
+  color:white;
+}
+code {
+  font-family:monospace;
+  font-size:120%;
+  display:block;
+  line-height:1.5em;
+}
+code:nth-child(2n) {
+  color:gainsboro;
+}
+code:nth-letter(8) { /* lol :) */
+  color:red;
+}
+code::selection {
+  color:black;
+  background-color:lightgreen;
 }
